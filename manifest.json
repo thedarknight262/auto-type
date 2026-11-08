@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "CodeKata Auto Typer",
+  "version": "1.4",
+  "description": "Automatically types code into GUVI CodeKata editor (Instant + Human-like typing)",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.guvi.in/*",
+    "https://guvi.in/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CodeKata Auto Typer"
+  }
+}
